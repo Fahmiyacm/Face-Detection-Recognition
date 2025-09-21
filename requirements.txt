@@ -1,0 +1,14 @@
+tensorflow
+streamlit
+streamlit-webrtc
+av
+opencv-contrib-python
+mtcnn
+deepface
+torch
+torchvision
+pillow
+scikit-learn
+numpy
+joblib
+matplotlib

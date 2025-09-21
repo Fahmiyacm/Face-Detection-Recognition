@@ -1,0 +1,45 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.dsenv*/
+dsenv*/
+.dsenv*/
+dsenv_tf/
+dsenv_mechine/
+dsenv_311/
+dsenv*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / models (do NOT push big model files)
+data/
+data_raw/
+*.h5
+*.pkl
+*.pth
+*.ckpt
+models/
+models_local/
+*.onnx
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit / logs
+*.log
+
+# Others
+*.zip
+*.tar.gz
+'@ | Out-File -Encoding UTF8 .gitignore
