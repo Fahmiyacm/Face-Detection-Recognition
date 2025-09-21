@@ -13,3 +13,4 @@ scikit-learn
 numpy
 joblib
 matplotlib
+opencv-python-headless
