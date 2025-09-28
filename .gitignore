@@ -1,0 +1,22 @@
+```
+# Virtual environment
+dsenv_tf/
+
+# Generated files (excluding model files for deployment)
+
+FaceDetProject/failed_images.txt
+FaceDetProject/skipped_labels.txt
+FaceDetProject/debug_*.jpg
+
+# Data folders (large LFW dataset)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm
+.idea/
+```
